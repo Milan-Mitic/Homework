@@ -32,8 +32,8 @@ dugme.addEventListener("click", function() {
 });
 
 spisakStudenata = () => {
-    for(let i = 0; i < studenti.length; i++) {
         spisak.innerHTML = "";
+        for(let i = 0; i < studenti.length; i++) 
         let element = document.createElement("div");
         element.innerHTML = `<h2>${studenti[i].ime} ${studenti[i].prezime}</h2>
         <p>Godine: ${studenti[i].godine}</p>
